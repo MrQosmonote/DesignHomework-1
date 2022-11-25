@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QosTech</string>
+    <string name="modelAdi">Acer Aspire 7 A715-51G</string>
+    <string name="garanti">2 YEAR WARRANTY !</string>
+    <string name="fiyati">14.999 ₺</string>
+    <string name="ucret">PRICE</string>
+    <string name="urunOzellikleri">TECHNICAL SPECS</string>
+    <string name="modelNumarasi">NH.QGCEY.001</string>
+    <string name="modelNumarasiAd">MODEL NUMBER</string>
+    <string name="modelIslemcisi">INTEL Core i5-1240P</string>
+    <string name="modelIslemcisiAd">CPU</string>
+    <string name="modelGpu">RTX 3050 4 GB</string>
+    <string name="modelGpuAd">GPU</string>
+    <string name="modelRam">8 GB DDR4</string>
+    <string name="modelRamAd">RAM</string>
+    <string name="modelSsd">512 GB</string>
+    <string name="modelSsdAd">SSD STORAGE</string>
+    <string name="slogan">ALWAYS GOOD PRICE :)</string>
+    <string name="sepeteEkle">ADD TO CART</string>
+    <string name="sirketIsmi">QosTech</string>
+</resources>

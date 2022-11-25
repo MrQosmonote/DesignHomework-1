@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="-61dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/fiyati"
+        android:textColor="@color/priceColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip42"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/modelSsd"
+        android:textAlignment="center"
+        android:textColor="@color/writingColor1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/mainDarkColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/chip41"
+        app:layout_constraintTop_toBottomOf="@+id/chip40" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip41"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/modelSsdAd"
+        android:textAlignment="center"
+        android:textColor="@color/writingColor1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/mainDarkColor"
+        app:layout_constraintEnd_toStartOf="@+id/chip42"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip39" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip40"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/modelRam"
+        android:textAlignment="center"
+        android:textColor="@color/writingColor1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/mainDarkColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/chip39"
+        app:layout_constraintTop_toBottomOf="@+id/chip38" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip39"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/modelRamAd"
+        android:textAlignment="center"
+        android:textColor="@color/writingColor1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/mainDarkColor"
+        app:layout_constraintEnd_toStartOf="@+id/chip40"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip37" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip38"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/modelGpu"
+        android:textAlignment="center"
+        android:textColor="@color/writingColor1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/mainDarkColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/chip37"
+        app:layout_constraintTop_toBottomOf="@+id/chip36" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip37"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/modelGpuAd"
+        android:textAlignment="center"
+        android:textColor="@color/writingColor1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/mainDarkColor"
+        app:layout_constraintEnd_toStartOf="@+id/chip38"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip35" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip36"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/modelIslemcisi"
+        android:textAlignment="center"
+        android:textColor="@color/writingColor1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/mainDarkColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/chip35"
+        app:layout_constraintTop_toBottomOf="@+id/chip34" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip35"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/modelIslemcisiAd"
+        android:textAlignment="center"
+        android:textColor="@color/writingColor1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/mainDarkColor"
+        app:layout_constraintEnd_toStartOf="@+id/chip36"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip20" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip34"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/modelNumarasi"
+        android:textAlignment="center"
+        android:textColor="@color/writingColor1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/mainDarkColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/chip20"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip20"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/modelNumarasiAd"
+        android:textAlignment="center"
+        android:textColor="@color/writingColor1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/mainDarkColor"
+        app:layout_constraintEnd_toStartOf="@+id/chip34"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/shadows_into_light"
+            android:text="@string/sirketIsmi"
+            android:textColor="@color/writingColor1"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="6dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RatingBar
+        android:id="@+id/MyRating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/modelAdi"
+        android:textColor="@color/productNameColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MyRating"
+        app:srcCompat="@drawable/pc_pic" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="413dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="@font/nosifer"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/urunOzellikleri"
+        android:textAlignment="center"
+        android:textColor="@color/mainDarkColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="85dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/garanti"
+        android:textAlignment="center"
+        android:textColor="@color/warrantyColor"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/MyRating" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/ucret"
+        android:textColor="@color/writingColor2"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/atomic_age"
+        android:text="@string/slogan"
+        android:textColor="@color/warrantyColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/sepeteEkle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
